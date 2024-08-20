@@ -1,0 +1,404 @@
+/*!* src/components/Home.css *!*/
+
+/*!* General Styles *!*/
+/*.home-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    padding: 2rem;*/
+/*}*/
+
+/*!* Top Section Styles *!*/
+/*.top-section {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: flex-start;*/
+/*    justify-content: space-between;*/
+/*    width: 100%;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.text-container {*/
+/*    flex: 1;*/
+/*    text-align: left;*/
+/*    max-width: 600px;*/
+/*}*/
+
+/*.text-container h1 {*/
+/*    font-family: 'Permanent Marker', cursive;*/
+/*    font-size: 3rem; !* Adjust size as needed *!*/
+/*}*/
+
+/*.text-container p {*/
+/*    font-size: 1.2rem;*/
+/*    line-height: 1.5;*/
+/*}*/
+
+/*.social-icons {*/
+/*    margin-top: 1rem;*/
+/*}*/
+
+/*.social-icons a {*/
+/*    margin-right: 1rem;*/
+/*}*/
+
+/*.social-icons a:last-child {*/
+/*    margin-right: 0; !* Remove the margin from the last icon *!*/
+/*}*/
+
+/*.image-container {*/
+/*    flex: 0 0 auto;*/
+/*    margin-left: 2rem;*/
+/*}*/
+
+/*.profile-image {*/
+/*    border-radius: 50%;*/
+/*    border: 5px solid skyblue;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+
+/*.tech-stack {*/
+/*    flex: 1;*/
+/*    text-align: left;*/
+/*    margin-left: 2rem;*/
+/*}*/
+
+/*.tech-stack h2 {*/
+/*    font-size: 2rem;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*.icons {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.icons > * {*/
+/*    margin-right: 1rem;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*!* About Me Section *!*/
+/*.about-me-section {*/
+/*    margin-top: 4rem;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.about-me-container {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    max-width: 900px;*/
+/*}*/
+
+/*.about-me-image {*/
+/*    flex: 0 0 auto;*/
+/*}*/
+
+/*.about-me-photo {*/
+/*    width: 200px;*/
+/*    height: 150px; !* Changed to rectangular shape *!*/
+/*    border-radius: 0; !* Remove border radius *!*/
+/*    margin-right: 2rem;*/
+/*}*/
+
+/*.about-me-text {*/
+/*    flex: 1;*/
+/*}*/
+
+/*.about-me-text h2 {*/
+/*    color: skyblue;*/
+/*    font-size: 2.5rem;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*.about-me-text p {*/
+/*    font-size: 1.2rem;*/
+/*    line-height: 1.5;*/
+/*}*/
+
+/*!* For mobile phones *!*/
+/*@media only screen and (max-width: 600px) {*/
+/*    .home-container {*/
+/*        padding: 1rem;*/
+/*    }*/
+
+/*    .top-section {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .text-container {*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .image-container {*/
+/*        margin-top: 1rem;*/
+/*    }*/
+
+/*    .profile-image {*/
+/*        width: 150px;*/
+/*        height: 150px;*/
+/*    }*/
+
+/*    .tech-stack {*/
+/*        margin-left: 0;*/
+/*        text-align: center;*/
+/*        margin-top: 1rem;*/
+/*    }*/
+
+/*    .icons {*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .about-me-container {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .about-me-photo {*/
+/*        width: 150px;*/
+/*        height: 100px; !* Changed to rectangular shape *!*/
+/*        margin-right: 0;*/
+/*        margin-bottom: 1rem;*/
+/*    }*/
+
+/*    .about-me-text {*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .about-me-text h2 {*/
+/*        font-size: 2rem;*/
+/*    }*/
+
+/*    .about-me-text p {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*}*/
+
+/* src/components/Home.css */
+
+/* General Styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Top Section Styles */
+.top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    flex: 1;
+    text-align: left;
+    max-width: 600px;
+}
+
+.text-container h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem; /* Adjust size as needed */
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+    margin-right: 0; /* Remove the margin from the last icon */
+}
+
+.image-container {
+    flex: 0 0 auto;
+    margin-left: 2rem;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid skyblue;
+    width: 200px;
+    height: 200px;
+}
+
+.tech-stack {
+    flex: 1;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.tech-stack h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons > * {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* About Me Section */
+.about-me-section {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+}
+
+.about-me-image {
+    flex: 0 0 auto;
+}
+
+.about-me-photo {
+    width: 200px;
+    height: 150px; /* Rectangular shape */
+    border-radius: 0; /* Remove border radius */
+    margin-right: 2rem;
+}
+
+.about-me-text {
+    flex: 1;
+}
+
+.about-me-text h2 {
+    color: skyblue;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-me-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Aspirations and Career Goals Section */
+.aspirations-section {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aspirations-container {
+    max-width: 900px;
+    text-align: left;
+}
+
+.aspirations-container h2 {
+    color: skyblue;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.aspirations-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.aspirations-container a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.aspirations-container a:hover {
+    text-decoration: underline;
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+    .home-container {
+        padding: 1rem;
+    }
+
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .image-container {
+        margin-top: 1rem;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tech-stack {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me-photo {
+        width: 150px;
+        height: 100px; /* Rectangular shape */
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .about-me-text {
+        text-align: center;
+    }
+
+    .about-me-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-me-text p {
+        font-size: 1rem;
+    }
+
+    .aspirations-container {
+        text-align: center;
+    }
+
+    .aspirations-container h2 {
+        font-size: 2rem;
+    }
+
+    .aspirations-container p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,30 @@
+/* src/components/about.css */
+.about-container {
+    padding: 2rem;
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.about-image {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+}
+
+.about-content h2 {
+    margin-top: 1.5rem;
+}
+
+.about-content p {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
