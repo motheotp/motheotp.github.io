@@ -26,9 +26,10 @@ function Home() {
                 <div className="text-container">
                     <h1>Software Engineer <span role="img" aria-label="Waving hand">👋🏿</span></h1>
                     <p>
-                        Hello, I'm Motheo Treasure Puso, a highly motivated software engineer with a specialization in Python Development.
-                        I recently graduated from Michigan State University with degrees in Computer Science and Finance.
-                        I am passionate about building efficient, scalable, and user-friendly applications.
+                        Hello, I’m Motheo Treasure Puso, a software engineer, AI enthusiast, and entrepreneur. I’m the founder of <a
+                        href="https://www.nextbotswana.com" target="_blank" rel="noopener noreferrer">NEXT</a>, where
+                        I’m focused on driving innovative tech solutions in software development. I recently graduated from Michigan State University
+                        with degrees in Computer Science and Finance. My passion lies in developing AI-driven, scalable, and user-friendly applications that solve real-world problems.
                     </p>
                     <div className="social-icons">
                         <a href="https://www.linkedin.com/in/motheo-treasure-puso-6b637a13a/" target="_blank" rel="noopener noreferrer">
@@ -88,7 +89,7 @@ function Home() {
                     <p>
                         More importantly, I am passionate about building something that can revolutionize the tech
                         landscape, especially in third world countries. My startup, <a
-                        href="https://www.your-next-website.com" target="_blank" rel="noopener noreferrer">NEXT</a>,
+                        href="https://www.nextbotswana.com" target="_blank" rel="noopener noreferrer">NEXT</a>,
                         embodies this vision. NEXT is an AI company aimed at integrating AI solutions such as WhatsApp
                         API for customer relations, API integrations for business processes, chatbot solutions, and
                         more. Through NEXT, I aspire to bring cutting-edge technology to businesses, enhancing their
